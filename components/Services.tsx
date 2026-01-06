@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Settings, Sparkles, PaintBucket, snowflake, Factory, ShieldCheck, Snowflake } from 'lucide-react';
+import { Settings, Sparkles, PaintBucket, Factory, ShieldCheck, Snowflake } from 'lucide-react';
 
 const services = [
   {

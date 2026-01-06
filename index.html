@@ -47,34 +47,38 @@
         overflow-x: hidden;
       }
       
-      /* Typography update to match "Inter Black" style */
+      /* Typography Rules */
       h1, h2, h3, h4, h5, h6 {
         font-family: 'Inter', sans-serif;
-        font-weight: 900; /* Inter Black */
-        letter-spacing: -0.04em; /* Tight tracking typical of Inter Black headers */
+        font-weight: 900; /* Inter Black - Extra Bold */
+        letter-spacing: -0.04em; 
       }
       
-      /* Utility for mixed typography */
+      /* Explicit rule for italic serif parts to stay elegant/thin */
       .serif-italic {
         font-family: 'Playfair Display', serif;
         font-style: italic;
-        font-weight: 400;
+        font-weight: 400 !important; /* Forces the italic text to be regular weight */
         letter-spacing: 0;
       }
     </style>
   <script type="importmap">
 {
   "imports": {
-    "react/": "https://esm.sh/react@^19.2.3/",
-    "react": "https://esm.sh/react@^19.2.3",
+    "react": "https://esm.sh/react@18.2.0",
+    "react/jsx-runtime": "https://esm.sh/react@18.2.0/jsx-runtime",
+    "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+    "react-dom": "https://esm.sh/react-dom@18.2.0",
+    "lucide-react": "https://esm.sh/lucide-react@0.344.0?deps=react@18.2.0",
+    "framer-motion": "https://esm.sh/framer-motion@11.0.8?deps=react@18.2.0,react-dom@18.2.0",
     "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
-    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
-    "framer-motion": "https://esm.sh/framer-motion@^12.24.7"
+    "react/": "https://esm.sh/react@^19.2.3/"
   }
 }
 </script>
 </head>
   <body>
     <div id="root"></div>
+    <script type="module" src="./index.tsx"></script>
   </body>
 </html>
