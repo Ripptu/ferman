@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#022c22" />
+    <meta
+      name="description"
+      content="Ferman Industrieservice - Ihr Experte für Industriereinigung, Maschinenpflege und Hallenreinigung. Zuverlässig, gründlich und sympathisch."
+    />
+    <title>Ferman Industrieservice | Wir bringen den Glanz zurück</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#022c22', // emerald-950
+              secondary: '#065f46', // emerald-800
+              accent: '#a3e635', // lime-400
+              accentHover: '#84cc16', // lime-500
+              surface: '#f3f4f6', // gray-100
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            backgroundImage: {
+              'noise': "url('data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noiseFilter%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.65%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noiseFilter)%22 opacity=%220.05%22/%3E%3C/svg%3E')",
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      /* Custom utility for organic blob shapes */
+      .blob-shape-1 { border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%; }
+      .blob-shape-2 { border-radius: 63% 37% 39% 61% / 48% 66% 34% 52%; }
+      .blob-shape-3 { border-radius: 35% 65% 38% 62% / 54% 39% 61% 46%; }
+      
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #ffffff;
+        overflow-x: hidden;
+      }
+      
+      /* Typography update to match "Inter Black" style */
+      h1, h2, h3, h4, h5, h6 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 900; /* Inter Black */
+        letter-spacing: -0.04em; /* Tight tracking typical of Inter Black headers */
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "framer-motion": "https://esm.sh/framer-motion@^12.24.7"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
