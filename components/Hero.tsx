@@ -12,7 +12,7 @@ export const Hero: React.FC = () => {
   };
 
   return (
-    <section className="relative w-full min-h-screen pt-32 pb-20 px-6 lg:px-16 flex items-center bg-white overflow-hidden">
+    <section className="relative w-full min-h-screen pt-32 pb-20 px-6 lg:px-16 flex items-center overflow-hidden">
       <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
         
         {/* Left Content */}
@@ -26,8 +26,8 @@ export const Hero: React.FC = () => {
             Seit über 20 Jahren
           </div>
           <h1 className="text-5xl lg:text-7xl text-primary leading-[0.95] mb-8 tracking-tighter">
-            WIR BRINGEN <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-800 to-emerald-600">SAUBERKEIT</span>,<br />
-            SIE BEHALTEN DEN FOKUS.
+            WIR BRINGEN <span className="serif-italic font-normal text-6xl lg:text-8xl text-transparent bg-clip-text bg-gradient-to-r from-emerald-800 to-emerald-600">Sauberkeit</span>,<br />
+            SIE BEHALTEN DEN <span className="serif-italic font-normal text-6xl lg:text-8xl text-primary block mt-2">Fokus.</span>
           </h1>
           <p className="text-gray-600 text-lg mb-10 max-w-lg leading-relaxed font-medium">
             Industriereinigung ist Vertrauenssache. Unser geschultes Team sorgt für glänzende Maschinen und saubere Hallen, damit Ihre Produktion reibungslos läuft.

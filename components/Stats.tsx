@@ -3,11 +3,11 @@ import { motion } from 'framer-motion';
 
 export const Stats: React.FC = () => {
   return (
-    <section className="py-24 bg-white overflow-hidden">
+    <section className="py-24 bg-transparent overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 lg:px-16">
         <div className="mb-20">
            <h2 className="text-4xl lg:text-6xl text-primary max-w-4xl tracking-tighter leading-[0.95]">
-             LASSEN SIE UNS DEN SCHMUTZ ERLEDIGEN, DAMIT SIE GLÄNZEN KÖNNEN.
+             LASSEN SIE UNS DEN <span className="serif-italic text-5xl lg:text-7xl text-emerald-700">Schmutz</span> ERLEDIGEN, DAMIT SIE <span className="serif-italic text-5xl lg:text-7xl text-emerald-700">Glänzen</span> KÖNNEN.
            </h2>
         </div>
 

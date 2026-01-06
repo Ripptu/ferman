@@ -15,7 +15,7 @@ export const Contact: React.FC = () => {
           {/* Left info side */}
           <div className="lg:w-1/3 flex flex-col justify-center">
             <h2 className="text-4xl lg:text-6xl tracking-tighter mb-6 leading-[0.9]">
-              LASSEN SIE UNS <br/><span className="text-accent">DURCHSTARTEN</span>
+              LASSEN SIE UNS <br/><span className="serif-italic text-5xl lg:text-7xl text-accent">Durchstarten</span>
             </h2>
             <p className="text-emerald-100/80 text-lg mb-10 leading-relaxed font-medium">
               Keine langen Formulare. Beantworten Sie uns 3 kurze Fragen und wir erstellen das perfekte Reinigungskonzept für Ihre Industrieanlage.
